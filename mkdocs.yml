@@ -16,6 +16,9 @@ theme:
   - navigation.path
   - toc.integrate
   - navigation.top
+  - content.code.copy
+  - content.code.select
+  - content.code.annotate
 
 #Plugins 
 plugins:
@@ -36,3 +39,16 @@ nav:
       - 'Prowlarr': 'darrs/prowlarr.md' #Prowlarr Config
       - 'Lidarr': 'darrs/lidarr.md' #Lidarr Config
 
+#Markdown Extensions
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
