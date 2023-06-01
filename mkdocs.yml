@@ -1,14 +1,16 @@
 site_name: 'Smaug Trove Docs'
-site_url: https://docs.smaugstrove.live/
-# theme: a_theme_name_here
-features:
-
+#site_url: https://docs.smaugstrove.live/
+theme:
+  name: material
+  features:
+  - navigation.instant
+  - navigation.tracking
+  - navigation.tabs
 plugins:
   - search
   - pdf-export
   - mkdocs-video
-
-nav: 
+nav:
     - 'Introduction': 
       - 'index.md'
     - darrs:
@@ -17,3 +19,4 @@ nav:
       - 'Mylar': 'darrs/mylar.md' #Mylar Config
       - 'Prowlarr': 'darrs/prowlarr.md' #Prowlarr Config
       - 'Lidarr': 'darrs/lidarr.md' #Lidarr Config
+
