@@ -1,8 +1,13 @@
+#General Site Settings
 site_name: 'Smaug Trove Docs'
 #site_url: https://docs.smaugstrove.live/
 repo_url: https://github.com/untraceablez/smaug-docs
+repo_name: untraceablez/smaug-docs
 
+#Theme & Theme Specific Settings
 theme:
+  icon:
+    repo: fontawesome/brands/github-alt
   name: material
   features:
   - navigation.instant
@@ -11,10 +16,16 @@ theme:
   - navigation.path
   - toc.integrate
   - navigation.top
+
+#Plugins 
 plugins:
   - search
   - pdf-export
   - mkdocs-video
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+#Navigation Layout of Site
 nav:
     - 'Introduction': 
       - 'index.md'
