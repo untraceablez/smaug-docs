@@ -6,6 +6,7 @@ repo_name: untraceablez/smaug-docs
 
 #Theme & Theme Specific Settings
 theme:
+  logo: img/logo-light.png
   palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -51,12 +52,18 @@ plugins:
 nav:
     - 'Introduction': 
       - 'index.md'
-    - darrs:
+    - The Darrs:
       - 'Radarr': 'darrs/radarr.md' #Radarr Config
       - 'Sonarr': 'darrs/sonarr.md' #Sonarr Config
       - 'Mylar': 'darrs/mylar.md' #Mylar Config
       - 'Prowlarr': 'darrs/prowlarr.md' #Prowlarr Config
       - 'Lidarr': 'darrs/lidarr.md' #Lidarr Config
+    - The Servers:
+      - 'Plex': 'servers/plex.md' #Plex Config
+      - 'Emby': 'servers/emby.md' #Emby Config
+      - 'Jellyfin': 'darrs/jellyfin.md' #Jellyfin Config
+      - 'Navidrome': 'darrs/navidrome.md' #Navidrome Config
+      - 'Calibre': 'darrs/calibre.md' #Calibre Config
 
 #Markdown Extensions
 markdown_extensions:
