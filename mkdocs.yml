@@ -6,20 +6,23 @@ repo_name: untraceablez/smaug-docs
 
 #Theme & Theme Specific Settings
 theme:
-  logo: img/logo-light.png
+  logo_slate_mode: img/logo-light.png
+  logo_default_mode: img/logo-dark.png
   palette: 
     # Palette toggle for light mode
-    - scheme: default
-      primary: white
-      accent: deep-purple
+    - media: "(prefers-color-scheme: default)"
+      scheme: default
+      primary: "white"
+      accent: "deep purple"
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - scheme: slate
-      primary: deep-purple
-      accent: deep-orange
+    - media: "(prefers-color-scheme: slate)"
+      scheme: slate
+      primary: "deep purple"
+      accent: "deep orange"
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -37,7 +40,6 @@ theme:
   - toc.integrate
   - navigation.top
   - content.code.copy
-  - content.code.select
   - content.code.annotate
 
 #Plugins 
