@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 # Erat has caelo concidere se inque altera
 
 ## A vasta nati nec vita tibi hasta

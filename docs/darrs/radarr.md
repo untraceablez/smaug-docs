@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 # Radarr
 
 ## What is Radarr?

@@ -1,6 +1,6 @@
 #General Site Settings
 site_name: 'Smaug Trove Docs'
-#site_url: https://docs.smaugstrove.live/
+site_url: http://10.0.0.46:8000
 repo_url: https://github.com/untraceablez/smaug-docs
 repo_name: untraceablez/smaug-docs
 
@@ -34,6 +34,7 @@ theme:
   - navigation.instant
   - navigation.tracking
   - navigation.tabs
+  - navigation.tabs.sticky
   - navigation.path
   - navigation.footer
   - toc.integrate
@@ -44,7 +45,6 @@ theme:
 #Plugins 
 plugins:
   - search
-  - pdf-export
   - mkdocs-video
   - git-revision-date-localized:
       enable_creation_date: true
@@ -82,7 +82,12 @@ markdown_extensions:
 
 # Extra Settings
 extra:
+  copyright: Copyright &copy; 2023 Taylor Cohron
   generator: false
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/untraceablez
+    - icon: fontawesome/brands/github
+      link: https://github.com/untraceablez
+    - icon: fontawesome/brands/twitter
+      link: https://instagram.com/untraceablez

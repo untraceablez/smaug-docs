@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 # Sonarr
 
 ## What is Sonarr?

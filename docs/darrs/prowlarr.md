@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 # Prowlarr
 
 ## What is Prowlarr?

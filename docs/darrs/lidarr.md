@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 # Lidarr
 
 ## What is Lidarr?
