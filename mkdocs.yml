@@ -1,11 +1,16 @@
 site_name: 'Smaug Trove Docs'
 #site_url: https://docs.smaugstrove.live/
+repo_url: https://github.com/untraceablez/smaug-docs
+
 theme:
   name: material
   features:
   - navigation.instant
   - navigation.tracking
   - navigation.tabs
+  - navigation.path
+  - toc.integrate
+  - navigation.top
 plugins:
   - search
   - pdf-export
