@@ -61,9 +61,9 @@ nav:
     - The Servers:
       - 'Plex': 'servers/plex.md' #Plex Config
       - 'Emby': 'servers/emby.md' #Emby Config
-      - 'Jellyfin': 'darrs/jellyfin.md' #Jellyfin Config
-      - 'Navidrome': 'darrs/navidrome.md' #Navidrome Config
-      - 'Calibre': 'darrs/calibre.md' #Calibre Config
+      - 'Jellyfin': 'servers/jellyfin.md' #Jellyfin Config
+      - 'Navidrome': 'servers/navidrome.md' #Navidrome Config
+      - 'Calibre': 'servers/calibre.md' #Calibre Config
 
 #Markdown Extensions
 markdown_extensions:
