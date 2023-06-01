@@ -6,8 +6,7 @@ repo_name: untraceablez/smaug-docs
 
 #Theme & Theme Specific Settings
 theme:
-  logo_slate_mode: img/logo-light.png
-  logo_default_mode: img/logo-dark.png
+  logo: img/logo.svg
   palette: 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: default)"
