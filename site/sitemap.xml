@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://10.0.0.46:8000/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/darrs/lidarr/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/darrs/mylar/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/darrs/prowlarr/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/darrs/radarr/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/darrs/sonarr/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/servers/calibre/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/servers/emby/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/servers/jellyfin/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/servers/navidrome/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://10.0.0.46:8000/servers/plex/</loc>
-         <lastmod>2023-06-01</lastmod>
+         <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
