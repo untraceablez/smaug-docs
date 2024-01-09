@@ -4,51 +4,6 @@ site_url: http://10.0.0.46:8000
 repo_url: https://github.com/untraceablez/smaug-docs
 repo_name: untraceablez/smaug-docs
 
-#Theme & Theme Specific Settings
-theme:
-  logo: img/logo.svg
-  palette: 
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: default)"
-      scheme: default
-      primary: "white"
-      accent: "deep purple"
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: slate)"
-      scheme: slate
-      primary: "deep purple"
-      accent: "deep orange"
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-    
-  favicon: img/logo-light.png
-  icon:
-    repo: fontawesome/brands/github-alt
-  name: material
-  features:
-  - navigation.instant
-  - navigation.tracking
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.path
-  - navigation.footer
-  - toc.integrate
-  - navigation.top
-  - content.code.copy
-  - content.code.annotate
-
-#Plugins 
-plugins:
-  - search
-  - mkdocs-video
-  - git-revision-date-localized:
-      enable_creation_date: true
-
 #Navigation Layout of Site
 nav:
     - 'Introduction': 
@@ -66,28 +21,94 @@ nav:
       - 'Navidrome': 'servers/navidrome.md' #Navidrome Config
       - 'Calibre': 'servers/calibre.md' #Calibre Config
 
-#Markdown Extensions
+copyright: Copyright &copy; 2023 Taylor Cohron (@untraceablez)
+
+theme:
+  features:
+    - content.tooltips
+  name: material
+  language: 'en'
+  logo: images/homelab-icon.png
+  favicon: 'images/favicon.ico'
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: light dracula
+      accent: light dracula
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: light dracula
+      accent: light dracula
+
+  icon:
+    repo: fontawesome/brands/git-alt
+
+  features:
+  - tabs
+  - instant
+  - search.highlight
+  - search.suggest
+  - navigation.instant
+  - navigation.tracking
+  - navigation.path
+  - navigation.indexes
+  - navigation.top
+  - navigation.footer
+  - content.code.copy
+  - content.code.annotate
+
+plugins:
+  - search
+  - glightbox
+  - mkdocs-video
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - autolinks
+
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: true
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
-
-# Extra Settings
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+      
 extra:
-  copyright: Copyright &copy; 2023 Taylor Cohron
   generator: false
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/untraceablez
+    - icon: fontawesome/brands/discord
+      link: https://your-discord-invite-link.here
+    - icon: fontawesome/regular/envelope
+      link: mailto:taylorcohrontech@gmail.com
     - icon: fontawesome/brands/github
-      link: https://github.com/untraceablez
-    - icon: fontawesome/brands/twitter
-      link: https://instagram.com/untraceablez
+      link: https://github.com/untraceablez/
+  homepage: https://www.taylorcohron.me

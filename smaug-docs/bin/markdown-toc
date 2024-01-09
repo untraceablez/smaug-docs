@@ -1,0 +1,4 @@
+#!/home/untraceablez/smaug-docs/smaug-docs/bin/python3
+
+import markdowntoc
+markdowntoc.main()
